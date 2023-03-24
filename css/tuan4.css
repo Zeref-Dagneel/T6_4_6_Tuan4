@@ -1,0 +1,124 @@
+#wrapper {
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+}
+body{
+    width: 0px;
+}
+html{
+    width: 0px;
+}
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+
+#center {
+    display: flex;
+    flex-direction: column;
+    width: 910px;
+    padding: 40px 20px 5px 20px;
+}
+#center_above{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    
+}
+#center_above_right{
+    margin-top: -10px;
+    border-radius: 10px;
+    border: 1px solid #d56b6b;
+    padding: 10px;
+    color: #d56b6b;
+}
+#center_second{
+    display: flex;
+    align-items: center;
+}
+#center_second_1{
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #E34D73; 
+}
+#center_bottom{
+    width: 880px;
+    background-color: #D1D0D7;
+    margin-top: 20px;
+    height: 426px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+#center_cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.center_cards_card{
+
+}
+
+#center_footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+.center_footer_icon{
+    margin-left: 15px;
+}
+#right {
+    width: 440px;
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 1px solid black;
+}
+
+#left {
+    width: 90px;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #D1D0D7;
+}
+
+#leftabove {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#leftbelow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    margin-top: 50px;
+    width: 32px;
+}
+
+.item2 {
+    margin-top: 36px;
+    width: 44px;
+}
+
+#rightabove {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#rightbelow {
+    height: 50%;
+    border-top: 1px solid black;
+}
